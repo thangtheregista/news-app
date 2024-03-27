@@ -1,0 +1,41 @@
+a {
+  text-decoration: none;
+  color: black;
+  overflow: hidden;
+}
+a:hover {
+  color: red;
+}
+.card {
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.card:hover {
+  box-shadow: 2px 2px 5px #333;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  width: auto;
+}
+.card-image:hover {
+  cursor: pointer;
+}
+.wrapper {
+  padding: 15px 10%;
+}
+.news-container {
+  padding: 0 5%;
+}
+.center-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 60vh;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
